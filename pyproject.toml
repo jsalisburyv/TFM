@@ -1,0 +1,10 @@
+[project]
+name = "tfm-new"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "mmaction2",
+]
+
+[tool.uv.sources]
+mmaction2 = { path = "mmaction2", editable = true }
