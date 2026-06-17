@@ -1,0 +1,4 @@
+[submodule "mmaction2"]
+	path = mmaction2
+	url = https://github.com/jsalisburyv/mmaction2.git
+	branch = tfm-custom
