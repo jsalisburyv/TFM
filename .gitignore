@@ -1,0 +1,75 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+.codex/
+.agents/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+
+# Local research artifacts
+artifacts/model-weights/
+artifacts/explanation-runs/
+artifacts/generated-explanations/
+artifacts/selected-explanations/
+
+# Model checkpoints and serialized objects
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pkl
+*.pickle
+
+# Generated arrays, metrics, and media
+*.npy
+*.npz
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.wav
+results*.json
+
+# Large compressed artifacts
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
